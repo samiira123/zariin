@@ -1,0 +1,404 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    /*padding-right: 60px;*/
+}
+
+.header h1{
+    /*align-items: center;*/
+    text-align: center;
+    font-size: 30px;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    padding-left: 750px;
+    font-size: 20px;
+    /*text-align: center;*/
+    align-items: center;
+    list-style: none;
+}
+
+.header button{
+    padding: 10px 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 380px;
+    padding: 100px 180px;
+    color: white;
+}
+
+.left{
+    width: 380px;
+}
+
+.left h1{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.left p{
+    padding-bottom: 40px;
+}
+
+.left button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.right img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.dhax{
+    display: flex;
+    margin: 40px 60px;
+    position: relative;
+}
+
+.cunug1 img{
+    width: 1300px;
+    height: 500px;
+}
+
+.cunug2{
+    width: 700px;
+    position: absolute;
+    bottom: -150px;
+    left: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 20px 40px;
+    
+}
+
+.cunug2-1{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.cunug2 h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.cunug2 p{
+    padding-bottom: 10px;
+}
+
+.cunug2 button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px blueviolet;
+    color: blueviolet;
+    border: none;
+    font-size: 15px;
+}
+
+.labo{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+}
+
+.labo button{
+    padding: 15px 45px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.hoos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    gap: 40px;
+}
+
+.hoos1 img{
+    width: 800px;
+}
+
+.hoos2 h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.hoos2-1{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.hoos2 p{
+    padding-bottom: 20px;
+}
+
+.hoos2 button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px blueviolet;
+    color: blueviolet;
+    border: none;
+    font-size: 15px;
+}
+
+.divhooyo{
+    display: flex;
+    gap: 20px;
+    padding: 30px 70px;
+}
+
+.div1 h1{
+    padding-bottom: 20px;
+}
+
+.div1 p{
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: blueviolet;
+    height: 600px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.footer h1{
+    font-size: 80px;
+    padding: 80px 240px;
+    padding-top: 40px;
+}
+
+.footer p{
+    padding: 20px 450px;
+    padding-bottom: 40px;
+}
+
+.B2{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:white;
+    border: none;
+    border: 2px solid white;
+    font-size: 15px;
+    background-color: blueviolet;
+}
+
+.B1{
+    padding: 15px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px blueviolet;
+    color: blueviolet;
+    border: none;
+    font-size: 15px;
+   
+}
+
+.icon{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.icon h1{
+    padding-bottom: 40px;
+    padding-right: 80px;
+}
+
+.icon ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0px 500px;
+    padding-bottom: 30px;
+}
+
+.icon hr{
+    color: blueviolet;
+    size: 20px;
+    margin: 0px 200px;
+}
+
+.icon p{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.kuuskuus{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 500px;
+}
+
+.kuuskuus p{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 90%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+@media screen and (max-width:600px) {
+    .header ul{
+        display: none;
+    }
+
+    .header button{
+        display: none;
+    }
+
+    .header h1{
+        font-size: 50px;
+        padding-left:60px;
+    }
+
+    .main{
+        flex-direction: column;
+        height: 900px;
+        padding: 40px 60px;
+       
+    }
+
+    .left{
+        width: 800px;
+        padding-left: 35px;
+        padding-bottom: 30px;
+    }
+    .left p{
+        font-size: 25px;
+    }
+
+    .left h1{
+        font-size: 15px;
+    }
+
+    .right img{
+        width: 680px;
+        height: 450px;
+        padding-left: 35px;
+      
+    }
+
+    .dhax{
+        flex-direction: column;
+        margin: 30px 25px;
+    }
+
+    .cunug1 img{
+        width: 925px;
+    }
+
+    .cunug2{
+        width: 500px;
+        left: 280px;
+        margin: 30px;
+    }
+
+    
+    .labo{
+       flex-direction: column;
+       padding-top: 30px;
+    }
+
+    .labo button{
+       display: none;
+    }
+
+    .labo h1{
+        padding-left: 180px;
+        padding-top: 70px;
+        font-size: 80px;
+    }
+
+    .hoos{
+        flex-direction: column;
+       
+    }
+
+    .hoos1 img{
+        padding-bottom: 30px;
+    }
+
+    .hoos2{
+        padding-bottom: 30px;
+    }
+
+    .divhooyo{
+        flex-direction: column;
+        padding-left: 140px;
+        gap: 50px;
+    }
+
+    .div1 img{
+        width: 700px;
+    }
+
+    .footer{
+  
+    }
+
+    .footer h1{
+        font-size: 80px;
+        padding: 20px 100px;
+    }
+
+    .footer p{
+        padding: 30px 100px;
+        font-size: 30px;
+    }
+
+    .icon h1{
+        font-size: 70px;
+    }
+
+    .icon ul{
+        padding-left: 50px;
+        padding: 0px 100px;
+        font-size: 60px;
+    }
+
+    .icon hr{
+        margin: 50px 100px;
+    }
+
+    .icon p{
+        padding-bottom: 30px;
+    }
+/* 
+    .kuuskuus{
+        flex-direction: column;
+        padding:30px 60px;
+    } */
+
+    /* .kuuskuus p{
+        padding: 50px;
+ 
+        margin-right: 50px;
+    } */
+     .header i{
+        font-size: 40px;
+        padding-top: 20px;
+     }
+}
